@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: 'Poppins', sans-serif;  
+}
+
+.containerNavbar {
+    background-color: rgba(104, 103, 103, 0.219);
+    width: 100%;
+    height: 55px;
+}
+
+.imgLogo {
+    width: 55px;
+    height: 55px;
+}
+
+.btnHome {
+    font-size: 20px;
+    float: right;
+    font-weight: bold;
+    line-height: 55px;
+	margin: 0 40px;
+}
+
+.txtTittle {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.txtContainer {
+    font-size: 25px;
+    padding: 30px;
+    text-align: center;
+
+}
+
+.containerBox {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.containerOrgao {
+    border: 1px solid black;
+    padding: 20px;
+    text-align: left;
+}
+
+.boxCodigo, .addCodigo {
+    font-size: 20px;
+    text-align: left;
+  
+}
+
+.addCodigo {
+    margin-bottom: 20px;
+}
+
+.btnPadrao {
+    margin-left: 50px;
+    height: 35px;
+    width: 150px;
+    border: none; 
+    color: white;
+    border-radius: 3px;
+    background-color: rgb(143, 147, 153);
+    font-size: 20px;
+}
+
+.btnPadrao:hover {
+    cursor: pointer;
+    box-shadow: 0 0 11px #c9c9c9; 
+    background-color: rgb(92, 120, 161);
+}
+
