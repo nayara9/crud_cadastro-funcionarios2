@@ -20,18 +20,21 @@
         <div class="containerSeach">
             <h2 class="txtContainer">Buscar Informações</h2>
             <label id="txtSeach">Nome: <input type="text" id="txtSeach" placeholder="Buscar..."/></label>
-            <button class="btnSeach"><i class="fa-sharp fa-solid fa-magnifying-glass"></i></button>           
+            <button id="bSeach" class="btnSeach"><i class="fa-sharp fa-solid fa-magnifying-glass"></i></button>           
         </div>
 
         <div class="containerBtn">
-            <button class="btnEditar">Editar</button>
-            <button class="btnPadrao">Adicionar</button>
-            <button class="btnDelete">Delete</button>
+            <button type="button" id="btnEditar" class="btnPadrao">Editar</button>
+            <button type="button" id="btnAdd" class="btnPadrao">Adicionar</button>
+            <button type="button" id="bDelete" class="btnDelete">Delete</button>
         </div>
         
     </form>
+    <div id="erros"></div>
     <ul></ul>
-        
+    <table></table>
+    <script src="http.js"></script>
+    <script src="script.js"></script>
 
 
   

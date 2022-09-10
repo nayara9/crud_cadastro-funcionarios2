@@ -1,16 +1,16 @@
-const nomeClientes = [
+const funcionario = [
     {
         id:1,
-        nome: nayara,
+        name: nayara,
     },
 
     {
         id:2,
-        nome: snow,
+        name: snow,
     },
 
     {
         id:3,
-        nome: oi,
+        name: oi,
     },
 ]

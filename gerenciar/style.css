@@ -8,6 +8,10 @@ body {
     font-family: 'Poppins', sans-serif;  
 }
 
+.selected {
+    color:red
+}
+
 .containerNavbar {
     background-color: rgba(104, 103, 103, 0.219);
     width: 100%;
