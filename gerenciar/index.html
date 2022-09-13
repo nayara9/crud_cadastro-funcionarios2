@@ -14,42 +14,50 @@
 <body>
     <div class="containerNavbar">
         <img class="imgLogo" src="teste.png"/>
-        <a class="btnHome">Home</a>
+        <button class="btnHome">Outros</button>
+        <button class="btnHome">Serviços</button>
+        <button class="btnHome">Home</button>
+   
     </div>
 
-    <form>
+    <form class="boxForm">
         <h1 class="txtTittle">Gerenciamento de Clientes</h2>
-       
-        <div class="containerSeach">
-            <h2 class="txtContainer">Buscar Informações</h2>
-            <label id="txtSeach">Nome: <input type="text" id="txtSeach" placeholder="Buscar..."/></label>
-            <button id="bSeach" class="btnSeach"><i class="fa-sharp fa-solid fa-magnifying-glass"></i></button>           
+        
+        <div class="boxContainer">
+            <div class="containerSeach">
+                <h2 class="txtContainer">Buscar Informações</h2>
+                <label id="txtSeach">Nome: <input type="text" id="txtSeach" placeholder="Buscar..."/></label>
+                <button id="bSeach" class="btnSeach"><i class="fa-sharp fa-solid fa-magnifying-glass"></i></button>           
+            </div>
+            <div class="containerBtn">
+                <button type="button" id="bEditar" class="btnEditar">Editar</button>
+                <button  class="btnPadrao"><a class="ancora" href="./adicionar.html">Adicionar</a></button>
+                <button type="button" id="bDelete" class="btnDelete">Delete</button>
+            </div>
         </div>
-
         <table class="containerLista">
-            
-            <td>
-                <tr>Nome </tr>
-            </td>
-            <td>
-                <tr>Código </tr>
-            </td>
-            <td>
-                <tr>Código </tr>
-            </td>
-        </table>
+          
+                <tr class="containerTittle">  
+                    <th class="tableTittle">Código </th>
+                    <th class="tableTittle">Nome  </th>
+                    <th class="tableTittle">Status </th>
+                </tr>
+       
 
-        <div class="containerBtn">
-            <button type="button" id="bEditar" class="btnEditar">Editar</button>
-            <button  class="btnPadrao"><a class="ancora" href="./adicionar/index.html">Adicionar</a></button>
-            <button type="button" id="bDelete" class="btnDelete">Delete</button>
-        </div>
+          
+                <tr class="containerBody">
+                    <td class="tableBody" id="codigo" ></td>
+                    <td class="tableBody" id="name"></td>
+                    <td class="tableBody" id="status"></td>
+                    
+                </tr>
+           
+        </table>
         
     </form>
     
-    <ul></ul>
-    <table></table>
-
+  
+    
     <script type="module" src="script.mjs"></script>
 
 </body>

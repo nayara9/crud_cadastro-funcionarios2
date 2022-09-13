@@ -13,22 +13,39 @@ body {
 }
 
 .containerNavbar {
-    background-color: rgba(104, 103, 103, 0.219);
+    background-color: rgb(32, 19, 105);
     width: 100%;
     height: 55px;
 }
 
+.boxForm {
+   margin-left: 350px;
+   margin-right: 350px;
+ 
+}
 .imgLogo {
     width: 55px;
     height: 55px;
 }
 
 .btnHome {
+    background-color: rgb(32, 19, 105);
+    border: none;
     font-size: 20px;
     float: right;
     font-weight: bold;
     line-height: 55px;
-	margin: 0 40px;
+	margin: 0 20px;
+    color: white;
+    width: 80px;
+}
+
+.btnHome:hover {
+    cursor: pointer;
+    box-shadow: 0 0 11px #c9c9c9; 
+ 
+    line-height: 55px;
+
 }
 
 .txtTittle {
@@ -38,6 +55,7 @@ body {
 
 .txtContainer {
     font-size: 25px;
+    padding-top: 15px;
     padding-bottom: 30px;
 }
 
@@ -63,7 +81,7 @@ body {
 
 .containerBtn {
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
 }
 
 .btnPadrao, .btnDelete, .btnEditar {
@@ -100,3 +118,32 @@ body {
 .btnDelete:hover {
     background-color: rgb(194, 89, 89);
 }
+
+.boxContainer {
+    background-color: #f1f1f1;
+    border: 1px, solid, black;
+}
+
+
+.containerLista {
+    display: flex;
+    align-items: center;
+    border-collapse: collapse;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.containerTittle, .containerBody {
+  
+    border: 2px solid #c9c9c9;
+   
+}
+
+
+
+.tableTittle, .tableBody {
+margin: 40px;
+width: 250px;
+text-align: center;
+}
+
