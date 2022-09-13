@@ -1,16 +1,18 @@
 const funcionario = [
     {
         id:1,
-        name: nayara,
+        name:"nayara",
     },
 
     {
         id:2,
-        name: snow,
+        name: "snow",
     },
 
     {
         id:3,
-        name: oi,
+        name: "oi",
     },
 ]
+
+export {funcionario};

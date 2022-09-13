@@ -45,7 +45,7 @@ body {
     text-align: center;
 }
 
-#txtSeach, .btnPadrao, .btnDelete {
+#txtSeach, .btnPadrao, .btnDelete, .btnEditar {
     font-size: 20px;  
 }
 
@@ -73,6 +73,11 @@ body {
     border: none; 
     color: white;
     border-radius: 3px;
+}
+
+.ancora {
+    text-decoration: none;
+    color: white;
 }
 
 .btnDelete:hover, .btnPadrao:hover, .btnEditar:hover {
